@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
         platform: webApp.platform,
         colorScheme: webApp.colorScheme,
         isExpanded: webApp.isExpanded,
-        safeAreaInset: webApp.safeAreaInset,
         ContentSafeAreaInset: webApp.ContentSafeAreaInset,
       }, null, 2);
   
