@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
         platform: webApp.platform,
         colorScheme: webApp.colorScheme,
         isExpanded: webApp.isExpanded,
-        isActive: webApp.isActive,
         safeAreaInset: webApp.safeAreaInset,
+        ContentSafeAreaInset: webApp.ContentSafeAreaInset,
       }, null, 2);
   
       console.log('Web App initialized:', webApp);
