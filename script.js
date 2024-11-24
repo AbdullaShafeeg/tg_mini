@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         colorScheme: webApp.colorScheme,
         isExpanded: webApp.isExpanded,
         isActive: webApp.isActive,
-        safAreaInset: webApp.safAreaInset,
+        safeAreaInset: webApp.safeAreaInset,
       }, null, 2);
   
       console.log('Web App initialized:', webApp);
