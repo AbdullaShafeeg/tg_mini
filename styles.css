@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    color: var(--tg-theme-text-color, #000000);
+  }
+  
+  button {
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--tg-theme-button-color, #0088cc);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #info {
+    margin-top: 1rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
